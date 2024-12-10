@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link
+    rel="stylesheet"
+ 0   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Document</title>
+</head>
+<style>
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+     height: 100vh;
+    width: 100vw;
+    background-color: rgba(238, 236, 232, 0.959);
+    }
+    .parent {
+    border: 1px solid red;
+    border: none;
+  }
+  nav{
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    border: 1px solid red;
+    border: none;
+  }
+  .parent ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+       
+    }
+    .child ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+  .logo{
+    width: 30%;
+  }
+  .menu{
+     width: 40%;
+  }
+  .last{
+    width:30%;
+    text-align: end;
+
+  }
+  button {
+    height: 25px;
+    width: 90px;
+  }
+  .parent li{
+    font-size: 18px;
+    }
+    .data{
+        margin-top:150px;
+        margin-left: 600px;
+        display: flex;
+    }
+    .btn1{
+        top: 10%;
+    }
+ .blank{
+      height: 550px;
+      width: 350px;
+      background-color: rgb(212, 211, 211);
+      position: absolute;
+      left: 65%;
+      top: 10%;
+      z-index:-1;
+      
+    }
+    .blank1{
+    position: absolute;
+    left: 64%;
+      top: 12%;
+    }
+    .child{
+        margin-top: 12%;
+    }
+    .gallary{
+      margin-top: 10%;
+      height: 60vh;
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+    /* border: 1px solid; */
+
+
+    }
+    .gallary img{
+      width: 20%;
+      height: 60;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid rgba(255, 255, 255, 0);
+      transition: all ease-in-out 0.5s;
+    }
+    .gallary img:hover{
+     width: 25%;
+
+    }
+    .img1 img{
+      position: absolute;
+       top: 6rem;
+      left: 17rem; 
+      z-index: 1;
+    }
+    .img2 img{
+      position: absolute;
+      top: 2rem;
+      left: 12rem;
+      /* z-index: 2; */
+    }
+    .img3 img{
+      position: absolute;
+      top: 4rem;
+      left: 14rem;
+      z-index: -1;
+    }
+    .pics img{
+      height: 40vh;
+      width: 20vw;
+    }
+    .about{
+      width: 25vw;
+      /* border: 1px solid; */
+      margin-top: 3rem;
+    }
+    .about h2,h4{
+      margin-bottom: 1rem;
+    }
+    .about ul{
+      margin-left: 1.5rem;
+    }
+    .end button{
+      background: white;
+      margin: 2rem 0 -1rem;
+      color:black;
+    }
+    #third h2{
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    #third{
+      height: 100vh;
+      width: 100vw;
+    }
+    .cards{
+      display: flex;
+      justify-content: space-evenly;
+
+    }
+    .card{
+      width: 15vw;
+      height: 55vh;
+      border: 1px solid;
+      border-radius: 10px;
+      border: none;
+      background-color:rgba(238, 236, 232, 0.959);
+     
+    }
+    .card img{
+      height: 30vh;
+      width: 15vw;
+     /* border-radius: 12px; */
+     border: none;
+     object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: all ease-in-out 2s;
+    }
+    .cards img:hover{
+      width: 25%;  
+    }
+    a{
+      color: black;
+      text-decoration: none;
+    }
+    .inline{
+      display: flex;
+      justify-content: space-between;
+    }
+    .inline i, h4{
+      margin: 1rem 1rem;
+    }
+    .top{
+        height: 30px;
+      width: 90px;
+      background-color:white;
+      color: black;
+      border: none;
+      border-radius: 10px; 
+    }
+    .start{
+        height: 30px;
+      width: 90px;
+      background-color: rgb(246, 246, 4);
+      color:black;
+      border: none;
+      border-radius: 10px;
+    }
+</style>
+<body>
+   <section id="one">
+    <div class="parent">
+    <nav>
+        <div class="logo"><i class="fa fa-youtube-play" style="font-size:24px;">Youtube Video creator</i></div>
+        <div class="menu">
+        <ul>           
+            <li>Home</li>
+            <li>About</li>
+            <li>Pages</li>
+            <li>Exercises</li>
+            <li>Blog</li>
+        </ul>
+        </div>
+            <div class="last"><button class="top">Last video</button>
+            <button class="start">Subscribe</button></div>
+    </nav>
+    </div>
+    <div class="data">
+        <div class="theory">
+          <B style="font-size: 50px;">An YouTube<br>
+            Channel for<br>
+            entrepreneurs
+          </B><br>
+          <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis <br>asperiores neque cupiditate volupta  
+            <br> similique nam. Ut, laudantium nisi <br>architecto minus sunt velit facere vero </b>
+            <br><br>
+            <div class="btn1">
+            <button class="start">Subscribe</button>
+             <button class="top">Last video</button>
+        </div>
+    </div>
+       <div class="blank"></div>
+       <div class="blank1"><img src="./image1.avif" height="500px" width="350px"></div>
+    </div>
+   </section> 
+
+
+<section id="two">
+     <div class="child">
+        <ul>
+            <li><b style="font-size: 20px;">Videos aviable at</b></li>   
+            <li><i class="fa fa-youtube-play" style="font-size:24px;color: red;"><b>YouTube</b></i></li>
+            <li><h2 style="background-color: blueviolet; color: white;">twitch</h2></li>
+           <li><h2 style="color:rgb(9, 94, 221);">Facebook</h2></li>
+           <li><i><h2 style="color: blueviolet;">Web-Flow</h2></i></li>
+        </ul>
+     </div>
+     <div class="gallary">
+        <div class="pics">
+          <div class="img1"><img src="./image4.avif"></div>
+        <div class="img2"><img src="./image5.avif"></div>
+        <div class="img3"><img src="./image6.avif"></div>
+      </div>
+      <div class="about">
+        <h1 style="font-size: 30px;">About the show </h1>
+         <h4>Lorem ipsum dolor, sit amet consectetur adipisicing 
+        repellendus laboriosam, quis aspernatur voluptatem
+         labore quae molestias. Mollitia, voluptas sunt saepe 
+          harum rem nobis obcaecati optio illum vel!</h4>
+          <ul>
+            <li>Created for users </li>
+            <li>New videos every week</li>
+            <li>Interviews with famous guests</li>
+          </ul>
+          <div class="end">
+            <button class="top">Learn More</button>
+          </div>
+    </div>
+    </div>
+</section>
+
+
+<section id="third">
+    <h2>Recent episodes</h2>
+    <div class="cards">
+     <div class="card">
+       <img src="./image7.avif" alt="">
+       <h3>Video 6: Learn more about marketing</h3>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, illum, possimus quam tempora impedit itaque quia deleniti repudiandae atque, eligendi quidem minus id. Aspernatur numquam, qui animi deleniti quo aut! 
+     <div class="inline">
+       <i class="fa fa-play-circle"><a href="watch now" style="color: black;">Watch Now</a></i>
+       <h4>Videos as</h4>
+     </div>
+     </div>
+     <div class="card">
+       <img src="./image8.avif" alt="">
+       <h3>Video 5: How to present yourself to CEO</h3>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, illum, possimus quam tempora impedit itaque quia deleniti repudiandae atque, eligendi quidem minus id. Aspernatur numquam, qui animi deleniti quo aut!
+       <div class="inline">
+         <i class="fa fa-play-circle"><a href="watch now" style="color: black;">Watch Now</a></i>
+         <h4>Videos as</h4>
+       </div>
+     </div>
+     <div class="card">
+       <img src="./image9.avif" alt="">
+       <h3>Video 4:How to get from employee to CEO</h3>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, illum, possimus quam tempora impedit itaque quia deleniti repudiandae atque, eligendi quidem minus id. Aspernatur numquam, qui animi deleniti quo aut!
+       <div class="inline">
+         <i class="fa fa-play-circle"><a href="watch now" style="color: black;">Watch Now</a></i>
+         <h4>Videos as</h4>
+       </div>
+     </div>
+    </div>
+</section>  
+
+
+</body>
+</html>

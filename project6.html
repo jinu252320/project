@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } 
+    .parent {
+    height: 80vh;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+.nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 1200px;
+}
+.nav li {
+    margin: 0 15px;
+}
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.navbar1{
+    display: flex;
+    justify-content: end;
+}
+</style>
+<body>
+    <section id="first">
+        <div class="parent">
+            <nav class="navbar">
+                <div class="logo">
+                   <a href=""><img src="./image.png" alt="" height="32px"></a> 
+                </div>
+                <ul class="nav">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Enterpris</a></li>
+                    <li><a href="#">Resource and Support</a></li>
+                    <li><a href="#">Public API Network</a></li>
+                    <div class="navbar1">
+                    <li><button>Contact Sales</button></li>
+                    <li><button>Sign in</button></li>
+                    <li><button>    Sign in for free</button></li>
+                    </div>
+                </ul>
+
+                
+            </nav>
+            </div>
+</body>
+</html>
